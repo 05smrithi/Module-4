@@ -34,7 +34,6 @@ class pen:
         area = math.pi * radius * radius
         print(f"Area of circle: {area:.2f}")
 
-# Taking input from user
 radius = float(input())
 p = pen()
 p.stationary(radius)
