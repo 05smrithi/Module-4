@@ -34,7 +34,7 @@ def create_file(file_path, content):
     with open(file_path, 'w') as file:
         file.write(content)
 
-# Function to calculate character frequencies
+
 def char_frequency(file_path):
    freq = defaultdict(int)
    with open(file_path,"r") as file:
